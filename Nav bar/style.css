@@ -29,7 +29,7 @@ body{
     text-decoration: none;
     color: #ffffff;
 }
-.active , .menu-bar ul li:hover{
+.active , .menu-bar ul li :hover{
 
     background: #bbab7f;
     border-radius: 3px;
