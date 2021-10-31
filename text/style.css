@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+#p1{
+    width: 300px;
+    text-align: justify;
+    color: cornflowerblue;
+} 
+#p2{
+    text-align: left;
+    color: darkkhaki;
+}
+#p3{
+    text-align: right;
+    color: darkslategrey;
+}
+#p4{
+    text-decoration: overline;
+    color: firebrick;
+}
+#p5{
+    text-decoration: line-through;
+    color: grey;
+}
+#p6{
+    text-decoration: underline;
+    color: hotpink;
+}
+#p7{
+    text-transform: uppercase;
+    color: indigo;
+}
+#p8{
+    text-transform: capitalize;
+    color: lightblue;
+}
+
+#p9{
+    text-transform: lowercase;
+    color: lightpink;
+}
+
+#p10{
+    text-indent: 50px;
+    color: lightseagreen;
+}
+
