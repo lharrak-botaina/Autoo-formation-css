@@ -8,18 +8,33 @@
     <style>
         .flex-container {
             display: flex;
+            flex-direction: row;
+             background-color: DodgerBlue;
+            flex-direction: row-reverse;
 
-          background-color: DodgerBlue;
         }
         
         .flex-container  div {
-          background-color: #f1f1f1;
-          margin: 5px;
-          padding: 20px;
-          font-size: 4rem;
-
-        }
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            font-size: 3rem;
+         }
        
+         .flex-container-column{
+            display: flex;
+            flex-direction: column;
+            flex-direction: column-reverse;
+            background-color: blueviolet;
+         }
+         .flex-container-column div {
+             background-color: burlywood;
+             width: 100px;
+             margin: 10px;
+             text-align: center;
+             font-size: 3rem;
+         }
     </style>
 </head>
 <body>
@@ -29,6 +44,12 @@
   <div>1</div>
   <div>2</div>
   <div>3</div> 
+
+</div>
+<div class="flex-container-column">
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
 
 </div>
 
