@@ -5,9 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex grid</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flex-grid.css">
+    <style>
+        body{
+            margin: 0px;
+        }
+        header nav ul {
+            display: flex;
+            list-style: none;
+        }
+        header nav ul li{
+            flex: 0 0 100px;
+            background-color: darkblue;
+            margin: 0px 4px;
+            padding: 10px;
+            text-align: center;
+            margin: 5px;
+        }
+        aside nav ul li {
+            display: flex;
+            background-color: cornflowerblue;
+            list-style: none;
+            padding: 30px;
+        }
+        article{
+            background-color: darkgrey;
+        }
+        footer{
+            background-color: darkslateblue;
+        }
+
+
+    </style>
 </head>
-<body>
+<body class="container">
+    <header class="row">
+        <nav >
+            <ul>
+                <li>accuiel</li>
+                <li>page1</li>
+                <li>page2</li>
+                <li>page3</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="row">
+        <aside class="col-xs-12 col-md-3 col-lg-2">
+            <nav>
+                <ul>
+                    <li>page4</li>
+                    <li>page5</li>
+                    <li>page6</li>
+
+                </ul>
+            </nav>
+        </aside>
+         <article class="col-xs-12 col-md-6 col-lg-8">
+            <h1>categories</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates repellendus necessitatibus maiores vitae illo sapiente magni voluptatem maxime molestias fuga provident, inventore minus alias dolorum, molestiae sint architecto. Dolorem natus eaque perferendis, cupiditate voluptas corporis, tenetur ea hic nobis fugiat perspiciatis aliquam nesciunt blanditiis error esse id magnam optio, reprehenderit recusandae unde dignissimos fugit ut? Itaque sunt numquam debitis rerum atque fugit, perspiciatis fugiat illum consequatur. Veniam voluptatibus natus ipsum iste fugiat saepe quidem accusantium magni ducimus repellat ab dolorum laboriosam dolorem commodi laudantium, odit eius omnis! Quasi nesciunt assumenda dolor nobis quaerat obcaecati deleniti vero quis inventore. Ut!</p>
+
+         </article>
+        
+    </main>
+    <footer class="row">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsum libero provident at illo excepturi sint harum quidem quod nisi!</p>
+
+    </footer>
+
     
 </body>
 </html>
